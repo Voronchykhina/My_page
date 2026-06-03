@@ -1,0 +1,45 @@
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header-hover a:hover {
+	color: #463078;
+	fill: #463078;
+}
+
+.menu {
+	color: #1B0843; 
+}
+
+.hover-zoom img{
+	transition: transform 0.3s ease;	
+}
+
+.hover-zoom:hover img{
+	transform: scale(1.1);	
+}
+
+.footer-hover a {
+	color: #A998C8;
+	fill: #A998C8;
+}
+
+.footer-hover a:hover {
+	color: #463078;
+}
+
+.footer-hover a:hover svg {
+	fill: #463078;
+}
+
+.spitze {
+	opacity: 0.3;
+}
+
+.spitze:hover {
+	opacity: 1;
+}
